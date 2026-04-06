@@ -77,13 +77,11 @@ Check `~/.claude/shared/templates/prompt-starters.md` for ready-to-use prompts c
 
 ## Uninstalling
 
-Remove the installed files:
-
 ```bash
-rm ~/.claude/CLAUDE.md
-rm -rf ~/.claude/skills/{design,research,a11y,design-system}
-rm -rf ~/.claude/shared
+curl -fsSL https://raw.githubusercontent.com/jens-wedin/scandic-ai-session/main/uninstall.sh | bash
 ```
+
+This removes all installed files and cleans up empty directories. Backup files (from `--force` installs) are preserved — the script will tell you how to remove them if any exist.
 
 ## Contributing
 

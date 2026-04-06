@@ -1,5 +1,5 @@
 ---
-name: a11y
+name: scandic-a11y
 description: Accessibility audit and WCAG 2.2 AA compliance review for designs and code. Reviews for inclusive design, keyboard navigation, screen reader support, and assistive technology compatibility.
 user-invocable: true
 ---

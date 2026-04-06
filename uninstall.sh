@@ -45,10 +45,10 @@ echo ""
 
 # Skills
 echo "⚡ Skills"
-remove_file "$CLAUDE_DIR/skills/design/SKILL.md" "/design"
-remove_file "$CLAUDE_DIR/skills/research/SKILL.md" "/research"
-remove_file "$CLAUDE_DIR/skills/a11y/SKILL.md" "/a11y"
-remove_file "$CLAUDE_DIR/skills/design-system/SKILL.md" "/design-system"
+remove_file "$CLAUDE_DIR/skills/scandic-design/SKILL.md" "/scandic-design"
+remove_file "$CLAUDE_DIR/skills/scandic-research/SKILL.md" "/scandic-research"
+remove_file "$CLAUDE_DIR/skills/scandic-a11y/SKILL.md" "/scandic-a11y"
+remove_file "$CLAUDE_DIR/skills/scandic-design-system/SKILL.md" "/scandic-design-system"
 echo ""
 
 # Shared reference files
@@ -70,10 +70,10 @@ if [ "$BACKUPS" -gt 0 ]; then
 fi
 
 # Remove empty directories (bottom-up)
-remove_dir_if_empty "$CLAUDE_DIR/skills/design"
-remove_dir_if_empty "$CLAUDE_DIR/skills/research"
-remove_dir_if_empty "$CLAUDE_DIR/skills/a11y"
-remove_dir_if_empty "$CLAUDE_DIR/skills/design-system"
+remove_dir_if_empty "$CLAUDE_DIR/skills/scandic-design"
+remove_dir_if_empty "$CLAUDE_DIR/skills/scandic-research"
+remove_dir_if_empty "$CLAUDE_DIR/skills/scandic-a11y"
+remove_dir_if_empty "$CLAUDE_DIR/skills/scandic-design-system"
 remove_dir_if_empty "$CLAUDE_DIR/shared/roles"
 remove_dir_if_empty "$CLAUDE_DIR/shared/templates"
 remove_dir_if_empty "$CLAUDE_DIR/shared"

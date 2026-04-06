@@ -41,10 +41,10 @@ Always consider how design decisions map between Figma and code implementation.
 
 ## Available Skills
 
-- `/design` — design review, critique, and component analysis
-- `/research` — UX research analysis and synthesis
-- `/a11y` — accessibility audit and WCAG compliance check
-- `/design-system` — Figma ↔ Storybook consistency and token management
+- `/scandic-design` — design review, critique, and component analysis
+- `/scandic-research` — UX research analysis and synthesis
+- `/scandic-a11y` — accessibility audit and WCAG compliance check
+- `/scandic-design-system` — Figma ↔ Storybook consistency and token management
 
 ## Shared References
 

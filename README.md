@@ -14,15 +14,17 @@ This installs shared configuration, skills, and reference files to your `~/.clau
 
 | File | Install Location | Purpose |
 |------|-----------------|---------|
-| `CLAUDE.md` | `~/.claude/CLAUDE.md` | Global config — brand, principles, preferences |
-| `/design` skill | `~/.claude/skills/design/` | Design review, critique, component analysis |
-| `/research` skill | `~/.claude/skills/research/` | UX research synthesis and analysis |
-| `/a11y` skill | `~/.claude/skills/a11y/` | Accessibility audit, WCAG 2.2 AA compliance |
-| `/design-system` skill | `~/.claude/skills/design-system/` | Figma ↔ Storybook consistency |
-| Brand guidelines | `~/.claude/shared/scandic-brand.md` | Scandic brand voice and values |
-| Design principles | `~/.claude/shared/design-principles.md` | Core design principles |
-| Role configs | `~/.claude/shared/roles/` | Role-specific setups |
-| Prompt starters | `~/.claude/shared/templates/prompt-starters.md` | Ready-to-use prompts |
+| [CLAUDE.md](shared/home-claude.md) | `~/.claude/CLAUDE.md` | Global config — brand, principles, preferences |
+| [`/scandic-design`](skills/scandic-design/SKILL.md) | `~/.claude/skills/scandic-design/` | Design review, critique, component analysis |
+| [`/scandic-research`](skills/scandic-research/SKILL.md) | `~/.claude/skills/scandic-research/` | UX research synthesis and analysis |
+| [`/scandic-a11y`](skills/scandic-a11y/SKILL.md) | `~/.claude/skills/scandic-a11y/` | Accessibility audit, WCAG 2.2 AA compliance |
+| [`/scandic-design-system`](skills/scandic-design-system/SKILL.md) | `~/.claude/skills/scandic-design-system/` | Figma ↔ Storybook consistency |
+| [Brand guidelines](shared/scandic-brand.md) | `~/.claude/shared/scandic-brand.md` | Scandic brand voice and values |
+| [Design principles](shared/design-principles.md) | `~/.claude/shared/design-principles.md` | Core design principles |
+| [Role: design systems](shared/roles/design-systems.md) | `~/.claude/shared/roles/design-systems.md` | Role config for design systems designers |
+| [Role: product discovery](shared/roles/product-discovery.md) | `~/.claude/shared/roles/product-discovery.md` | Role config for product discovery |
+| [Role: UI & accessibility](shared/roles/design-ui-accessibility.md) | `~/.claude/shared/roles/design-ui-accessibility.md` | Role config for UI & a11y designers |
+| [Prompt starters](shared/templates/prompt-starters.md) | `~/.claude/shared/templates/prompt-starters.md` | Ready-to-use prompts |
 
 ### Non-destructive
 
@@ -34,21 +36,21 @@ curl -fsSL https://raw.githubusercontent.com/jens-wedin/scandic-ai-session/main/
 
 ## Skills
 
-### `/design` — Design Review
-Structured design critique covering visual hierarchy, spacing, typography, color usage, and design system consistency. Get feedback formatted as Strengths, Issues, and Recommendations.
+### `/scandic-design` — Design Review
+Structured design critique covering visual hierarchy, spacing, typography, color usage, and design system consistency. Get feedback formatted as Strengths, Issues, and Recommendations. [View skill →](skills/scandic-design/SKILL.md)
 
-### `/research` — UX Research
-Synthesize interview notes, conduct competitive analysis, plan research activities, and create structured outputs like insight cards and journey map annotations.
+### `/scandic-research` — UX Research
+Synthesize interview notes, conduct competitive analysis, plan research activities, and create structured outputs like insight cards and journey map annotations. [View skill →](skills/scandic-research/SKILL.md)
 
-### `/a11y` — Accessibility Audit
-WCAG 2.2 AA compliance review covering contrast, keyboard navigation, screen reader support, focus management, and touch targets. Issues categorized as Critical, Major, or Minor.
+### `/scandic-a11y` — Accessibility Audit
+WCAG 2.2 AA compliance review covering contrast, keyboard navigation, screen reader support, focus management, and touch targets. Issues categorized as Critical, Major, or Minor. [View skill →](skills/scandic-a11y/SKILL.md)
 
-### `/design-system` — Design System
-Bridge between Figma design tokens and Storybook components. Audit token usage, review component APIs, and check Figma-to-code consistency.
+### `/scandic-design-system` — Design System
+Bridge between Figma design tokens and Storybook components. Audit token usage, review component APIs, and check Figma-to-code consistency. [View skill →](skills/scandic-design-system/SKILL.md)
 
 ## Project-Level Setup
 
-The installer sets up your personal `~/.claude/` config. For project-specific configuration, copy the example `CLAUDE.md` to your project repo and customize it:
+The installer sets up your personal `~/.claude/` config. For project-specific configuration, copy the [example CLAUDE.md](CLAUDE.md) to your project repo and customize it:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/jens-wedin/scandic-ai-session/main/CLAUDE.md -o ./CLAUDE.md
@@ -60,20 +62,17 @@ Then edit the `<!-- TODO -->` sections with your project's stack, architecture, 
 
 The `shared/roles/` directory contains role-specific context files:
 
-- **`design-systems.md`** — For design systems designers (token management, component architecture, Figma ↔ Storybook sync)
-- **`product-discovery.md`** — For product discovery and research (interviews, synthesis, journey mapping)
-- **`design-ui-accessibility.md`** — For UI and accessibility designers (WCAG compliance, inclusive patterns, assistive tech testing)
+- [**Design systems**](shared/roles/design-systems.md) — Token management, component architecture, Figma ↔ Storybook sync
+- [**Product discovery**](shared/roles/product-discovery.md) — Interviews, synthesis, journey mapping
+- [**UI & accessibility**](shared/roles/design-ui-accessibility.md) — WCAG compliance, inclusive patterns, assistive tech testing
 
 These are installed as reference files in `~/.claude/shared/roles/`.
 
-## Prompt Starters
+## Shared References
 
-Check `~/.claude/shared/templates/prompt-starters.md` for ready-to-use prompts covering:
-- Design review and critique
-- Research synthesis and planning
-- Accessibility audits and annotations
-- Design system audits and documentation
-- Copy review and responsive strategy
+- [Scandic brand guidelines](shared/scandic-brand.md) — Brand values, voice, tone, visual direction
+- [Design principles](shared/design-principles.md) — 8 core principles guiding every design decision
+- [Prompt starters](shared/templates/prompt-starters.md) — Ready-to-use prompts for design review, research, a11y, and more
 
 ## Uninstalling
 

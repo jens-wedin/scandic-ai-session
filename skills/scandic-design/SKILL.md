@@ -1,5 +1,5 @@
 ---
-name: design
+name: scandic-design
 description: Design review, critique, and component analysis for Scandic product design. Provides structured feedback on visual hierarchy, spacing, typography, color, and design system consistency.
 user-invocable: true
 ---

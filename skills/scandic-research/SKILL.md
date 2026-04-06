@@ -1,5 +1,5 @@
 ---
-name: research
+name: scandic-research
 description: UX research analysis, user interview synthesis, competitive analysis, and research planning for Scandic product design.
 user-invocable: true
 ---

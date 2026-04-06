@@ -55,9 +55,9 @@ Use this configuration if your primary role involves UI design with a strong foc
 
 ## Useful Skills
 
-- `/a11y` — run an accessibility audit on designs or code
-- `/design` — general design review with accessibility lens
-- `/design-system` — check components meet accessibility standards
+- `/scandic-a11y` — run an accessibility audit on designs or code
+- `/scandic-design` — general design review with accessibility lens
+- `/scandic-design-system` — check components meet accessibility standards
 
 ## Common Tasks
 

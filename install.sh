@@ -65,10 +65,10 @@ echo ""
 
 # Skills
 echo "⚡ Skills"
-install_file "skills/design/SKILL.md" "$CLAUDE_DIR/skills/design/SKILL.md" "/design — design review & critique"
-install_file "skills/research/SKILL.md" "$CLAUDE_DIR/skills/research/SKILL.md" "/research — UX research & synthesis"
-install_file "skills/a11y/SKILL.md" "$CLAUDE_DIR/skills/a11y/SKILL.md" "/a11y — accessibility audit"
-install_file "skills/design-system/SKILL.md" "$CLAUDE_DIR/skills/design-system/SKILL.md" "/design-system — token & component management"
+install_file "skills/scandic-design/SKILL.md" "$CLAUDE_DIR/skills/scandic-design/SKILL.md" "/scandic-design — design review & critique"
+install_file "skills/scandic-research/SKILL.md" "$CLAUDE_DIR/skills/scandic-research/SKILL.md" "/scandic-research — UX research & synthesis"
+install_file "skills/scandic-a11y/SKILL.md" "$CLAUDE_DIR/skills/scandic-a11y/SKILL.md" "/scandic-a11y — accessibility audit"
+install_file "skills/scandic-design-system/SKILL.md" "$CLAUDE_DIR/skills/scandic-design-system/SKILL.md" "/scandic-design-system — token & component management"
 echo ""
 
 # Shared reference files
@@ -90,10 +90,10 @@ echo ""
 
 if [ $INSTALLED -gt 0 ]; then
   echo "You're all set! Open Claude Code and try:"
-  echo "  /design     — review a design"
-  echo "  /research   — synthesize research"
-  echo "  /a11y       — run an accessibility audit"
-  echo "  /design-system — audit component consistency"
+  echo "  /scandic-design        — review a design"
+  echo "  /scandic-research      — synthesize research"
+  echo "  /scandic-a11y          — run an accessibility audit"
+  echo "  /scandic-design-system — audit component consistency"
   echo ""
 fi
 

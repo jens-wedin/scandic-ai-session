@@ -39,9 +39,9 @@ Use this configuration if your primary role is maintaining and evolving Scandic'
 
 ## Useful Skills
 
-- `/design-system` — audit component consistency and token usage
-- `/a11y` — verify components meet accessibility standards
-- `/design` — review visual quality of new components
+- `/scandic-design-system` — audit component consistency and token usage
+- `/scandic-a11y` — verify components meet accessibility standards
+- `/scandic-design` — review visual quality of new components
 
 ## Common Tasks
 

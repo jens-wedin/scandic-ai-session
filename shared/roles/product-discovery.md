@@ -46,9 +46,9 @@ Use this configuration if your primary role involves user research, product disc
 
 ## Useful Skills
 
-- `/research` — synthesize research data and generate structured outputs
-- `/design` — connect research findings to design critique
-- `/a11y` — evaluate accessibility from a research perspective
+- `/scandic-research` — synthesize research data and generate structured outputs
+- `/scandic-design` — connect research findings to design critique
+- `/scandic-a11y` — evaluate accessibility from a research perspective
 
 ## Common Tasks
 

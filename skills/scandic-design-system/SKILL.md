@@ -1,5 +1,5 @@
 ---
-name: design-system
+name: scandic-design-system
 description: Bridge between Figma design tokens and Storybook components. Helps with token naming, component API review, and Figma-to-code consistency for Scandic's design system.
 user-invocable: true
 ---

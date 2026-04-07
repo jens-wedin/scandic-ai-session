@@ -19,6 +19,7 @@ This installs shared configuration, skills, and reference files to your `~/.clau
 | [`/scandic-research`](skills/scandic-research/SKILL.md) | `~/.claude/skills/scandic-research/` | UX research synthesis and analysis |
 | [`/scandic-a11y`](skills/scandic-a11y/SKILL.md) | `~/.claude/skills/scandic-a11y/` | Accessibility audit, WCAG 2.2 AA compliance |
 | [`/scandic-design-system`](skills/scandic-design-system/SKILL.md) | `~/.claude/skills/scandic-design-system/` | Figma ↔ Storybook consistency |
+| [`/scandic-design-critique`](skills/scandic-design-critique/SKILL.md) | `~/.claude/skills/scandic-design-critique/` | Principles-based design critique scorecard |
 | [Brand guidelines](shared/scandic-brand.md) | `~/.claude/shared/scandic-brand.md` | Scandic brand voice and values |
 | [Design principles](shared/design-principles.md) | `~/.claude/shared/design-principles.md` | Core design principles |
 | [Role: design systems](shared/roles/design-systems.md) | `~/.claude/shared/roles/design-systems.md` | Role config for design systems designers |
@@ -47,6 +48,9 @@ WCAG 2.2 AA compliance review covering contrast, keyboard navigation, screen rea
 
 ### `/scandic-design-system` — Design System
 Bridge between Figma design tokens and Storybook components. Audit token usage, review component APIs, and check Figma-to-code consistency. [View skill →](skills/scandic-design-system/SKILL.md)
+
+### `/scandic-design-critique` — Design Critique
+Systematic evaluation of a design against Scandic's 8 core design principles. Produces a scorecard (pass/concern/fail per principle), detailed findings, and prioritized actions. [View skill →](skills/scandic-design-critique/SKILL.md)
 
 ## Project-Level Setup
 

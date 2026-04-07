@@ -69,6 +69,7 @@ install_file "skills/scandic-design/SKILL.md" "$CLAUDE_DIR/skills/scandic-design
 install_file "skills/scandic-research/SKILL.md" "$CLAUDE_DIR/skills/scandic-research/SKILL.md" "/scandic-research — UX research & synthesis"
 install_file "skills/scandic-a11y/SKILL.md" "$CLAUDE_DIR/skills/scandic-a11y/SKILL.md" "/scandic-a11y — accessibility audit"
 install_file "skills/scandic-design-system/SKILL.md" "$CLAUDE_DIR/skills/scandic-design-system/SKILL.md" "/scandic-design-system — token & component management"
+install_file "skills/scandic-design-critique/SKILL.md" "$CLAUDE_DIR/skills/scandic-design-critique/SKILL.md" "/scandic-design-critique — principles-based design critique"
 echo ""
 
 # Shared reference files
@@ -94,6 +95,7 @@ if [ $INSTALLED -gt 0 ]; then
   echo "  /scandic-research      — synthesize research"
   echo "  /scandic-a11y          — run an accessibility audit"
   echo "  /scandic-design-system — audit component consistency"
+  echo "  /scandic-design-critique — principles-based critique"
   echo ""
 fi
 

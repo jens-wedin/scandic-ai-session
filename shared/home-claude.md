@@ -42,6 +42,7 @@ Always consider how design decisions map between Figma and code implementation.
 ## Available Skills
 
 - `/scandic-design` — design review, critique, and component analysis
+- `/scandic-design-critique` — principle-based design critique scorecard
 - `/scandic-research` — UX research analysis and synthesis
 - `/scandic-a11y` — accessibility audit and WCAG compliance check
 - `/scandic-design-system` — Figma ↔ Storybook consistency and token management

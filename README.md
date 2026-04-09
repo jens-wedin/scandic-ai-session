@@ -51,7 +51,7 @@ WCAG 2.2 AA compliance review covering contrast, keyboard navigation, screen rea
 Bridge between Figma design tokens and Storybook components. Audit token usage, review component APIs, and check Figma-to-code consistency. [View skill →](skills/scandic-design-system/SKILL.md)
 
 ### `/scandic-design-critique` — Design Critique
-Systematic evaluation of a design against Scandic's 8 core design principles. Produces a scorecard (pass/concern/fail per principle), detailed findings, and prioritized actions. [View skill →](skills/scandic-design-critique/SKILL.md)
+Systematic evaluation of a design against Scandic's 11 core design principles. Produces a scorecard (pass/concern/fail per principle), visual specification checks, detailed findings, and prioritized actions. [View skill →](skills/scandic-design-critique/SKILL.md)
 
 ## Project-Level Setup
 

@@ -54,6 +54,7 @@ echo ""
 
 # Shared reference files
 echo "📚 Shared References"
+remove_file "$CLAUDE_DIR/shared/DESIGN.md" "Design system specification"
 remove_file "$CLAUDE_DIR/shared/scandic-brand.md" "Scandic brand guidelines"
 remove_file "$CLAUDE_DIR/shared/design-principles.md" "Design principles"
 remove_file "$CLAUDE_DIR/shared/roles/design-systems.md" "Role: design systems"

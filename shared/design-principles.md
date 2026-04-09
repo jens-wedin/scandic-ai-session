@@ -61,6 +61,28 @@ These principles guide every design decision. When in doubt, refer back to these
 - Culturally aware across Nordic markets
 - Error messages should help, not blame
 
+## 9. Authenticity Over Perfection
+
+- Embrace analog warmth, imperfection, and genuine human connection
+- A perfectly composed image that feels nothing is less valuable than an imperfect one that feels real
+- Design decisions should favor emotional resonance over visual polish
+- Let authentic content — not decoration — carry the emotional weight
+- Grainy textures, candid moments, and unstaged compositions are welcome when they convey warmth
+
+## 10. Design for Occasions, Not Personas
+
+- Target travel moments (pragmatic business, family getaways, indulgent weekends, group travel) rather than rigid demographics
+- Adapt tone and emphasis to the occasion while maintaining a consistent brand foundation
+- A business traveler needs efficiency ("Quick check-in, strong Wi-Fi, great sleep"); a family needs reassurance ("Kids eat free, extra beds, space to play")
+- The voice is always Scandic, but the emphasis shifts
+
+## 11. Connect Values to Tangible Experiences
+
+- Use brand carriers to ground abstract promises in specific, sensory details
+- Don't say "we care about comfort" — say "your bed is ready, your coffee is hot, your room is quiet"
+- Every digital touchpoint should serve a brand carrier: "a warm welcome," "a good night's sleep," "a great breakfast"
+- When building UI, ask: *which brand carrier does this touchpoint serve?*
+
 ## How to Apply These
 
 When making a design decision:
@@ -72,5 +94,8 @@ When making a design decision:
 6. Is it performant? (Principle 6)
 7. Can we measure its impact? (Principle 7)
 8. Is the language inclusive? (Principle 8)
+9. Does it feel authentic and emotionally resonant? (Principle 9)
+10. Is it designed for the right travel occasion? (Principle 10)
+11. Does it connect brand values to tangible experiences? (Principle 11)
 
 If the answer to any is "no," revisit the design.

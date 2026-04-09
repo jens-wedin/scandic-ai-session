@@ -20,6 +20,7 @@ This installs shared configuration, skills, and reference files to your `~/.clau
 | [`/scandic-a11y`](skills/scandic-a11y/SKILL.md) | `~/.claude/skills/scandic-a11y/` | Accessibility audit, WCAG 2.2 AA compliance |
 | [`/scandic-design-system`](skills/scandic-design-system/SKILL.md) | `~/.claude/skills/scandic-design-system/` | Figma ↔ Storybook consistency |
 | [`/scandic-design-critique`](skills/scandic-design-critique/SKILL.md) | `~/.claude/skills/scandic-design-critique/` | Principles-based design critique scorecard |
+| [Design system](shared/DESIGN.md) | `~/.claude/shared/DESIGN.md` | Complete design system — colors, typography, components, imagery, brand strategy |
 | [Brand guidelines](shared/scandic-brand.md) | `~/.claude/shared/scandic-brand.md` | Scandic brand voice and values |
 | [Design principles](shared/design-principles.md) | `~/.claude/shared/design-principles.md` | Core design principles |
 | [Role: design systems](shared/roles/design-systems.md) | `~/.claude/shared/roles/design-systems.md` | Role config for design systems designers |
@@ -74,8 +75,9 @@ These are installed as reference files in `~/.claude/shared/roles/`.
 
 ## Shared References
 
+- [Design system](shared/DESIGN.md) — Complete design system specification: colors, typography, components, imagery direction, brand strategy, and responsive behavior. **The authoritative source for visual specifications.**
 - [Scandic brand guidelines](shared/scandic-brand.md) — Brand values, voice, tone, visual direction
-- [Design principles](shared/design-principles.md) — 8 core principles guiding every design decision
+- [Design principles](shared/design-principles.md) — 11 core principles guiding every design decision
 - [Prompt starters](shared/templates/prompt-starters.md) — Ready-to-use prompts for design review, research, a11y, and more
 
 ## Uninstalling

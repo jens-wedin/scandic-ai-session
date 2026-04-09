@@ -39,10 +39,13 @@ Use this configuration if your primary role involves user research, product disc
 
 ## Scandic Research Context
 
+- Scandic uses a **travel occasions model** — research should be framed around occasions (pragmatic business, family getaways, romantic weekends, group travel) rather than demographic personas
+- GEMIC research revealed Scandic is perceived as functional and reliable but lacks emotional resonance — research should explore closing this emotional gap
 - Guests span business travelers, families, accessibility-dependent users, and event attendees
 - Test across Nordic markets — cultural nuances matter
 - Booking, check-in, and room experience are critical user journeys
 - Accessibility research should include users with real disabilities, not just simulations
+- Refer to `~/.claude/shared/DESIGN.md` Section 11 for full brand strategy context
 
 ## Useful Skills
 

@@ -78,10 +78,13 @@ How we gathered data (participants, approach, timeline).
 ## Scandic Context
 
 - Scandic operates across the Nordics and Northern Europe
-- Guests include business travelers, families, and accessibility-dependent users
-- "Everyone is welcome" extends to digital touchpoints
+- Brand promise is "the most comfortable stay" — acting as "your friend in town"
+- Inclusivity is a core value: "everyone is welcome" extends to digital touchpoints
+- Scandic uses a **travel occasions model** (not personas) — pragmatic business, family getaways, romantic weekends, group travel. Research should be framed around occasions.
+- The GEMIC research foundation revealed that Scandic is perceived as functional and reliable but lacks emotional resonance. Customers view the brand as a safe "pain reliever." Research should explore this emotional gap.
 - Consider cultural nuances across Nordic markets
 - Sustainability and accessibility are core brand differentiators
+- Refer to `~/.claude/shared/DESIGN.md` Section 11 for full brand strategy context
 
 ## Principles
 

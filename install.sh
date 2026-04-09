@@ -74,6 +74,7 @@ echo ""
 
 # Shared reference files
 echo "📚 Shared References"
+install_file "shared/DESIGN.md" "$CLAUDE_DIR/shared/DESIGN.md" "Design system specification"
 install_file "shared/scandic-brand.md" "$CLAUDE_DIR/shared/scandic-brand.md" "Scandic brand guidelines"
 install_file "shared/design-principles.md" "$CLAUDE_DIR/shared/design-principles.md" "Design principles"
 install_file "shared/roles/design-systems.md" "$CLAUDE_DIR/shared/roles/design-systems.md" "Role: design systems"

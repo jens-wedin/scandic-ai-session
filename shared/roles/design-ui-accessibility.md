@@ -22,9 +22,9 @@ Use this configuration if your primary role involves UI design with a strong foc
 ### Accessibility Integration
 - Build accessibility into the design process, not as an audit after
 - Annotate designs with accessibility notes (focus order, ARIA roles, alt text)
-- Create accessible color palettes: all combinations meet 4.5:1 (text) and 3:1 (UI)
-- Design visible focus indicators that are both functional and on-brand
-- Ensure touch targets are minimum 24x24px (44x44px recommended)
+- Create accessible color palettes: all combinations meet 4.5:1 (text) and 3:1 (UI). Scandic reference: Signal Red (`#cd0921`) on white = ~5.6:1, Warm Medium Gray (`#556068`) on white = 4.5:1
+- Design visible focus indicators: 2px ring offset with primary color ring (per DESIGN.md)
+- Ensure touch targets are minimum 44x44px (48px on mobile per DESIGN.md)
 
 ### Testing & Validation
 - Test designs with screen readers (VoiceOver, NVDA, TalkBack)

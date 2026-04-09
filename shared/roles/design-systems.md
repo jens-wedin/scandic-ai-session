@@ -18,12 +18,14 @@ Use this configuration if your primary role is maintaining and evolving Scandic'
 - Ensure tokens sync between Figma and code (CSS custom properties)
 - Review token naming: `[category]-[property]-[variant]-[state]`
 - Audit for hardcoded values that should be tokens
+- All token values must align with DESIGN.md specifications: Signal Red `#cd0921`, Nordic Trust Blue `#004a99`, Fira Sans typography, pill buttons (250px radius), etc. Reference `~/.claude/shared/DESIGN.md` for authoritative values.
 
 ### Component Design
 - Design components that are composable, accessible, and responsive
 - Define all states: default, hover, focus, active, disabled, loading, error, empty
 - Document variant logic: when to use which variant
 - Ensure auto-layout in Figma matches CSS flexbox/grid in code
+- Component styling must follow DESIGN.md Section 4: pill-shaped buttons, rounded cards (8–12px), subtle shadows, flat-first approach
 
 ### Storybook Maintenance
 - Keep stories in sync with Figma component specs

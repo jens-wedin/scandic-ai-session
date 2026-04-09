@@ -71,4 +71,23 @@ Ready-to-use prompts for common tasks. Copy, paste, and customize.
 > Review this UI copy for: clarity, tone (warm, helpful, Scandic-appropriate), inclusivity, and brevity. Suggest improvements. Context: [where this copy appears].
 
 **Responsive strategy:**
-> How should [component/layout] adapt across breakpoints? Consider: mobile (320px), tablet (768px), desktop (1024px), and wide (1440px). Focus on content priority and interaction changes.
+> How should [component/layout] adapt across breakpoints? Consider: mobile (<768px), tablet (768–1199px), and desktop (1200px+). Focus on content priority and interaction changes.
+
+---
+
+## Brand & Design System
+
+**Color palette check:**
+> Check if this design uses the correct Scandic color palette: Signal Red `#cd0921` for CTAs, Nordic Trust Blue `#004a99` for secondary elements, Deep Charcoal `#1a1a1a` for body text, Soft Nordic Gray `#f4f4f4` for surfaces. Flag any off-palette colors and check that red leads, blue supports.
+
+**Typography audit:**
+> Audit this design's typography against Scandic's type system: Fira Sans, 700 for hero headings (36–48px), 600 for section headings (24–32px), 500 for subheadings (18–20px), 400 for body (16px). Check letter-spacing `0.012em` on buttons.
+
+**Photography direction review:**
+> Review these images against Scandic's photography direction: analog warmth, emotional micro-moments, real people not models, warm natural lighting, inclusive representation. Flag any that feel staged, glossy, or stock-photo-like.
+
+**Brand voice check:**
+> Review this UI copy for Scandic brand voice: "your friend in town" tone, occasion-aware messaging, brand carriers (concrete sensory details over abstract promises). Is it warm, clear, and jargon-free?
+
+**Occasion-aware design:**
+> I'm designing for [travel occasion: business / family / romantic / group]. How should the tone, imagery, and content emphasis adapt for this occasion while staying on-brand? Reference DESIGN.md for guidance.

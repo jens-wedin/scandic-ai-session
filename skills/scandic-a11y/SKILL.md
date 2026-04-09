@@ -31,7 +31,7 @@ You are conducting an accessibility review for the Scandic product design team. 
 ## Checks to Perform
 
 ### Visual
-- Color contrast: minimum 4.5:1 for text, 3:1 for large text and UI components
+- Color contrast: minimum 4.5:1 for text, 3:1 for large text and UI components. Scandic reference: Signal Red (`#cd0921`) on white = ~5.6:1 (passes AA). Warm Medium Gray (`#556068`) on white meets 4.5:1 for body text.
 - Color not used as sole indicator of meaning
 - Text resizable to 200% without loss of content
 - Content reflows at 320px width (no horizontal scroll)
@@ -41,9 +41,9 @@ You are conducting an accessibility review for the Scandic product design team. 
 ### Keyboard & Interaction
 - All interactive elements reachable via Tab
 - Logical tab order matching visual layout
-- Visible focus indicator on all focusable elements (minimum 2px, 3:1 contrast)
+- Visible focus indicator on all focusable elements (2px ring offset with primary color ring, per DESIGN.md. Minimum 3:1 contrast)
 - No keyboard traps
-- Touch targets minimum 24x24px (44x44px recommended)
+- Touch targets minimum 44x44px (per Scandic's accessibility standard and DESIGN.md). 48px minimum on mobile (<768px).
 - Drag actions have keyboard alternatives
 
 ### Screen Reader
@@ -104,7 +104,9 @@ For each issue, use this format:
 
 ## Scandic Context
 
-- Scandic is a recognized leader in physical accessibility — digital must match
+- Scandic has a 100+ point accessibility standard — the most comprehensive in the hotel industry. Digital must match.
+- Brand promise is "the most comfortable stay" — comfort includes accessibility for everyone
 - Many guests have permanent, temporary, or situational disabilities
 - Booking flows, room information, and check-in are critical accessibility paths
 - Test with real assistive technology: VoiceOver (macOS/iOS), NVDA (Windows), TalkBack (Android)
+- Refer to `~/.claude/shared/DESIGN.md` Section 8 for complete accessibility specifications

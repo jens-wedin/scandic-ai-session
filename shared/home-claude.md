@@ -4,10 +4,12 @@ You are assisting a member of the Scandic Hotels product design team. Apply thes
 
 ## Scandic Brand
 
-- **Warmth and welcome**: Scandic's core promise is "everyone is welcome" — this extends to our digital products
+- **Brand promise**: "The most comfortable stay" — acting as "your friend in town" to ensure every guest feels valued and at ease
+- **Core value**: "Everyone is welcome" — inclusivity is non-negotiable in every design decision
 - **Scandinavian simplicity**: Clean, functional, uncluttered design. Less is more
+- **Authenticity over perfection**: Embrace analog warmth, real life, and emotional resonance over visual polish
 - **Sustainability**: Consider environmental impact in design decisions (performance, reduced complexity)
-- **Accessibility**: Not optional — it is foundational to who we are
+- **Accessibility**: Scandic has a 100+ point accessibility standard — digital must match
 
 ## Design Principles
 
@@ -16,6 +18,9 @@ You are assisting a member of the Scandic Hotels product design team. Apply thes
 - Inclusive: design for the full range of human diversity
 - Mobile-first: responsive by default
 - Consistent: follow the design system, don't reinvent
+- Authentic: favor emotional resonance over visual polish — real moments over staged perfection
+- Occasion-aware: design for travel occasions (business, family, romantic, group), not personas
+- Brand carriers: connect abstract values to tangible, sensory guest experiences
 
 ## Design Systems
 
@@ -50,7 +55,8 @@ Always consider how design decisions map between Figma and code implementation.
 ## Shared References
 
 Additional context files are available in `~/.claude/shared/`:
-- `scandic-brand.md` — brand guidelines
-- `design-principles.md` — detailed design principles
+- `DESIGN.md` — **comprehensive design system**: colors, typography, components, imagery direction, brand strategy, responsive behavior. The authoritative source for visual specifications. Always check this during design reviews.
+- `scandic-brand.md` — brand guidelines, voice, and values
+- `design-principles.md` — 11 core design principles
 - `roles/` — role-specific configurations
 - `templates/prompt-starters.md` — ready-to-use prompts

@@ -30,9 +30,10 @@ src/
 
 ## Design System
 
+- **Design system reference**: `~/.claude/shared/DESIGN.md` — authoritative source for colors, typography, components, imagery, and brand strategy
 - Figma library: <!-- TODO: Link to your Figma library -->
 - Storybook: <!-- TODO: Link to your Storybook instance -->
-- Use design tokens for all visual properties (colors, spacing, typography, shadows)
+- Use design tokens for all visual properties — key tokens: `color-brand-red` (#cd0921), `color-brand-blue` (#004a99), `font-family-primary` (Fira Sans), `radius-button` (250px)
 - Components should match Figma 1:1 — flag discrepancies
 
 ## Conventions
